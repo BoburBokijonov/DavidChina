@@ -1,0 +1,394 @@
+body{
+    background-color: #61122f;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url(img/restaurant-logo_large.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    float: left;
+}
+.navbar-brand{
+    padding: 25px;
+  float: left;
+}
+.navbar-brand h1 {
+font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover {
+text-decoration: none;
+}
+.navbar-brand p {
+color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span{
+vertical-align: middle;
+}
+#nav-list{
+    margin-top: 10px;
+    margin-right: -25px;
+}
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+}
+#nav-list a:hover{
+ background: #e7e7e7;
+ transition:ease-in-out 80ms;
+ border-radius: 8%;
+}
+#nav-list a span{
+font-size: 1.8em;
+}
+#phone {
+    margin-top: 5px;
+}
+#phone a {
+text-align: center;
+    padding-bottom: 0;
+}
+#phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+/* Header End Quere */
+
+.container .jumbotron{
+        box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+
+#home-tiles > div:hover{
+    transform: scale(1.02);
+    transition:130ms;
+}
+#menu-tile,#specials-tile,#map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+    background: url(img/menu-tile.jpg) no-repeat;
+    background-position: center;
+}
+#specials-tile{
+    background: url(img/specials-tile.jpg) no-repeat;
+    background-position: center;
+}
+#map-tile{
+    background: url(img/home-banner-map.png) no-repeat;
+    background-position: center;
+}
+
+#menu-tile span ,#specials-tile span ,#map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: white;
+    opacity: .7;
+}
+.panel-footer{
+    margin-top: 30px;
+    padding: 35px 0 30px 0;
+    background-color: #222;
+    border-top: 0;
+}
+.other-footer{
+    position: absolute;;
+    bottom:0;
+    width: 100%;
+    margin-top: 30px;
+    padding: 35px 0 30px 0;
+    background-color: #222;
+    border-top: 0;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#green-foot{
+    font-size:14px;
+    color: #557c3e;
+    margin-top: 8px;
+}
+.panel-footer .row{
+    margin-bottom: 30px;
+}
+#testimonials p{
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top: 20px;
+}
+
+.category-tile {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.specials-tile{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;  
+}
+
+.specials-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.specials-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div{
+    margin: 20px 0 50px;
+}
+.menu-item-tile{
+    margin-bottom: 25px;
+}
+.menu-item-price {
+font-size: 1.1em;
+    text-align: bottom;
+}
+.menu-item-tile hr{
+width: 80%;
+}
+.menu-item-photo {
+    position: relative;
+    max-width: 250px;
+    border: 2px solid #3f0c1f; 
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.menu-item-photo div{
+ position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #557c3e;
+    width: 80px;
+    text-align: center;
+}
+.menu-item-tile .menu-item-price {
+font-size: 1.1em;
+    text-align: right;
+    margin: -15px -15px 0 0;
+}
+.menu-item-tile .menu-item-price span{
+    font-size: 0.6em;
+}
+.menu-item-description {
+padding-right: 30px;
+}
+h3.menu-item-title{
+margin: 0 0 10px;
+}
+.menu-item-details {
+font-size: 0.9em;
+    font-style: italic;
+}
+
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+    .container .jumbotron{
+    background: url(img/jumbotron_1200.jpg) no-repeat;
+    height: 675px;
+}
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+.container .jumbotron{
+    background: url(img/jumbotron_1200.jpg) no-repeat;
+    height: 558px;
+
+}
+    .navbar-header button.navbar-toggle{
+    clear: both;
+}
+ #logo-img{
+    background: url(img/restaurant-logo_medium.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+}   
+    
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px){
+.container .jumbotron{
+    background: url(img/jumbotron_992.jpg) no-repeat;
+    height: 432px;
+
+}   
+    
+}
+
+/* Small devices */
+@media (max-width: 767px) {
+.navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+  .navbar-brand h1 {
+      font-size: 5vw;
+}
+.navbar-brand p {
+font-size: .6em;
+margin-top: 12px;
+}
+.navbar-brand p img{
+height: 20px;
+}
+#nav-list a {
+font-size: 1.2em;  
+}
+    #nav-list a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #nav-list a:hover{
+        background:#e7e7e7;
+        border-radius: 0%;
+}
+    .container #main-content{
+        padding: 0;
+    }
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+      }
+     #menu-tile , #specials-tile{
+width: 360px;
+    margin: 0 auto 15px;
+}   
+    .panel-footer {
+        font-size: 2.3vw;
+    }
+    
+ .menu-item-photo {
+    margin-right: auto;
+}   
+    .menu-item-tile .menu-item-price {
+    text-align: center;
+}
+h3.menu-item-title{
+text-align: center;
+}
+.menu-item-details {
+text-align: center;
+}
+    
+}
+
+
+@media (max-width: 440px) {
+    .col-xxs-12{
+position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+        float: left;
+    }
+}
+
+
+
+
+
+#title-single{
+margin-bottom: 45px;
+}
+.info > p{
+    font-size: 18px;
+}
+#about-info{
+    margin-top: 100px;
+}
